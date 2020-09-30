@@ -12,7 +12,6 @@ const login = (email, password) => Api.login(email, password)
         throw new Error('Oops! Missing password, make sure to fill in your password and try again.');
       }
     }
-
     return response.token;
   });
 
