@@ -15,3 +15,5 @@ const canGregBuyBeer = () => {
     return `Greg is ${greg.age}, he can't buy beer :(`;
   }
 };
+
+console.log(canGregBuyBeer());
